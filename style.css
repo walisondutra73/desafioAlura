@@ -1,0 +1,123 @@
+.logoAlura {
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 2%;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  max-width: 150%;
+  gap: 1%;
+}
+.p-text-area {
+  text-align: left;
+  margin: 0px;
+  font-style: italic;
+  font-size: 100%;
+}
+
+.text-area {
+  resize: none;
+  background-color: white;
+  margin: auto;
+  border: none;
+  color: black;
+  border-radius: 1.4rem;
+  border: 1px solid #3b4a54;
+  font-size: 1rem;
+}
+.text-area:focus {
+  outline: none;
+}
+
+#mensagem {
+  resize: none;
+  background-color: white;
+  margin: auto;
+  border: none;
+  color: black;
+  border-radius: 1.4rem;
+  border: 1px solid #3b4a54;
+  font-size: 1rem;
+  background-image: url(./imagens/boneco.png);
+  background-size: 85%;
+  background-repeat: none;
+}
+
+#mensagem:focus {
+  outline: none;
+}
+.botoes {
+  margin-top: 5%;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr;
+  justify-content: center;
+  gap: 15%;
+}
+.btn-Encriptar {
+  background-color: transparent;
+  color: black;
+  padding: 5px 8px;
+  margin: 3% auto;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+.btn-Encriptar:hover {
+  background-color: #16085b;
+  color: white;
+}
+.btn-Desencriptar {
+  background-color: transparent;
+  color: black;
+  padding: 5px 8px;
+  margin: 3% auto;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+.btn-Desencriptar:hover {
+  background-color: #16085b;
+  color: #fff;
+}
+.btn-copiar {
+  background-color: transparent;
+  color: black;
+  padding: 5px 8px;
+  margin: 3% auto;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease;
+}
+.btn-copiar:hover {
+  background-color: #16085b;
+  color: #fff;
+}
+.rodape div {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 0.9%;
+  box-sizing: border-box;
+  align-items: center;
+  color: white;
+  background: #3b4a54;
+}
+
+.p-rodape {
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Decodificador de texto</title>
+</head>
+
+<body>
+  <header>
+    <div class="logoAlura">
+      <a href="https://www.alura.com.br/" target="_blank"><img src="./imagens/logo-alura.png"></a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="box">
+        <textarea class="text-area" cols=65" rows=25" placeholder="Digite aqui"></textarea>
+        <p class="p-text-area">
+          &#33; Apenas letras minúsculas e sem acento.</p>
+        <textarea id="mensagem" cols="65" rows="25" placeholder=></textarea>
+      </div>
+      <div class="botoes">
+        <button class="btn-Encriptar" onclick="criptografar()">Criptografar</button>
+        <button class="btn-Desencriptar" onclick="descriptografar()">Desencriptografar</button>
+        <button class="btn-copiar" onclick="copiar()">Copiar texto</button>
+      </div>
+
+      <footer class="rodape">
+        <div class="logos-footer">
+          <a href="https://www.linkedin.com/in/walison-dutra/" target="_blank"><img src="./imagens/logolinke.png" width="60" height="45"> </a>
+          <a href="https://github.com/walisondutra73" target="_blank"><img src="./imagens/logogit.png" width="60" height="45"></a>
+          <p class="criado">Desenvolvido por Walison Dutra. <br></br>Programa ONE - Oracle Next Education
+        </div>
+
+      </footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
