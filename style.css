@@ -3,7 +3,9 @@
   padding-top: 10px;
   width: 2%;
 }
-
+body {
+  zoom: 0.8; /* Coloca o zoom em 200% */
+}
 ::placeholder {
   color: #fff;
 }
